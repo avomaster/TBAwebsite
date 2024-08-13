@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Believe Advisory</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <a href="index.html" class="logo"><img src="logo.png" alt="Company Logo"></a>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html"><i class="bi bi-house-door-fill"></i> Home</a></li>
+                    <li><a href="about.html"><i class="bi bi-info-circle-fill"></i> About Us</a></li>
+                    <li><a href="services.html"><i class="bi bi-briefcase-fill"></i> Services</a></li>
+                    <li><a href="contact.html"><i class="bi bi-envelope-fill"></i> Contact</a></li>
+                </ul>
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="cool-heading">Redefining Consultancy with a Personal Touch</h1>
+            <p>Your success is our mission.</p>
+            <button class="cta-button" onclick="scrollToSection('about')">Learn More</button>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="cool-heading">About Us</h2>
+            <p><i class="bi bi-graph-up-arrow"></i> At Your Company, we are committed to delivering exceptional consultancy services that prioritize your business's growth and sustainability. Our unique approach combines industry expertise with a personal touch to ensure our clients receive customized solutions that address their specific challenges and goals.</p>
+            <p>Our services encompass risk mitigation, operational efficiency, profit preservation, and productivity enhancement, all designed to empower your organization to thrive in today's competitive landscape.</p>
+            <div class="about-features">
+                <div class="feature-box">
+                    <h3 class="cool-heading"><i class="bi bi-shield-fill-check"></i> Risk Mitigation</h3>
+                    <p>Identifying and mitigating potential risks to safeguard your business.</p>
+                </div>
+                <div class="feature-box">
+                    <h3 class="cool-heading"><i class="bi bi-gear-fill"></i> Operational Efficiency</h3>
+                    <p>Streamlining processes to enhance productivity and reduce costs.</p>
+                </div>
+                <div class="feature-box">
+                    <h3 class="cool-heading"><i class="bi bi-piggy-bank-fill"></i> Profit Preservation</h3>
+                    <p>Implementing strategies to maximize profits while minimizing losses.</p>
+                </div>
+                <div class="feature-box">
+                    <h3 class="cool-heading"><i class="bi bi-people-fill"></i> Productivity Enhancement</h3>
+                    <p>Boosting employee performance through targeted improvements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="cool-heading">Our Services</h2>
+            <p><i class="bi bi-hand-thumbs-up-fill"></i> Explore the wide range of services we offer to help your business achieve its full potential.</p>
+            <div class="service-grid">
+                <div class="service-card">
+                    <h3 class="cool-heading"><i class="bi bi-compass-fill"></i> Strategic Planning</h3>
+                    <p>Comprehensive planning to align your operations with long-term objectives.</p>
+                </div>
+                <div class="service-card">
+                    <h3 class="cool-heading"><i class="bi bi-currency-dollar"></i> Financial Advisory</h3>
+                    <p>Expert financial guidance to secure your company’s future.</p>
+                </div>
+                <div class="service-card">
+                    <h3 class="cool-heading"><i class="bi bi-person-badge-fill"></i> Leadership Development</h3>
+                    <p>Empowering leaders with the skills needed to drive organizational success.</p>
+                </div>
+                <div class="service-card">
+                    <h3 class="cool-heading"><i class="bi bi-arrow-repeat"></i> Change Management</h3>
+                    <p>Ensuring smooth transitions during periods of organizational change.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="cool-heading"><i class="bi bi-stars"></i> Client Testimonials</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p><i class="bi bi-chat-quote-fill"></i> "Your Company has transformed our business. Their insights and strategies have led to remarkable growth and efficiency improvements."</p>
+                    <p>- John Doe, CEO of XYZ Corp</p>
+                </div>
+                <div class="testimonial-card">
+                    <p><i class="bi bi-chat-quote-fill"></i> "The team at Your Company truly understands the unique challenges of our industry. Their tailored solutions have been invaluable."</p>
+                    <p>- Jane Smith, CFO of ABC Inc</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="cta">
+        <div class="container">
+            <h2 class="cta-heading"><i class="bi bi-rocket-takeoff-fill"></i> Ready to Elevate Your Business?</h2>
+            <p>Contact us today to discover how our expertise can help your company achieve new heights.</p>
+            <a href="contact.html" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <img src="logo.png" alt="Company Logo">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="index.html"><i class="bi bi-house-door-fill"></i> Home</a></li>
+                    <li><a href="about.html"><i class="bi bi-info-circle-fill"></i> About Us</a></li>
+                    <li><a href="services.html"><i class="bi bi-briefcase-fill"></i> Services</a></li>
+                    <li><a href="contact.html"><i class="bi bi-envelope-fill"></i> Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/company/the-believeadvisory" class="social-link" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                <a href="https://wa.me/27835708398" class="social-link" target="_blank"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+                <a href="mailto:info@believeresourcing.com" class="social-link" target="_blank"><i class="bi bi-envelope"></i> Email</a>
+                <a href="tel:+27835708398" class="social-link"><i class="bi bi-telephone-fill"></i> Phone</a>
+            </div>
+            <div class="footer-contact">
+                <p><i class="bi bi-envelope-fill"></i> Email: info@believeresourcing.com</p>
+                <p><i class="bi bi-telephone-fill"></i> Phone: +27 (0) 83 570 8398</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 The Believe Advisory. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
